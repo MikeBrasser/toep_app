@@ -1,3 +1,13 @@
 <resources>
+    <!--Naam app-->
     <string name="app_name">ToepApp</string>
+
+    <!--Top nav bar-->
+    <string name="home">Home</string>
+    <string name="scoreboard">Scoreboard</string>
+    <string name="addAPlayer">Add a player</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    
+    <string name="topText">Je stinkt</string>
 </resources>
