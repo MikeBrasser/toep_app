@@ -10,4 +10,7 @@
     <string name="close">Close</string>
     
     <string name="topText">Je stinkt</string>
+    <string name="add_an_extra_player">Add an extra player</string>
+    <string name="play_trumpet_sound">play Trumpet Sound</string>
+    <string name="name">Name...</string>
 </resources>

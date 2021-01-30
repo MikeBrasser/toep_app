@@ -5,22 +5,38 @@
     android:layout_height="match_parent"
     android:background="@color/ghostWhite">
 
-    <TextView
-        android:id="@+id/topText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/topText"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:background="@color/white"
-        />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvScores"
-        android:layout_below="@+id/topText"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/addAPlayer"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_person_add"
+            android:backgroundTint="@color/green"
+            android:contentDescription="@string/add_an_extra_player" />
+
+        <ImageButton
+            android:id="@+id/toepTrumpet"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_volume_up"
+            android:backgroundTint="@color/blue"
+            android:contentDescription="@string/play_trumpet_sound" />
+
+    </LinearLayout>
 
 
 </RelativeLayout>

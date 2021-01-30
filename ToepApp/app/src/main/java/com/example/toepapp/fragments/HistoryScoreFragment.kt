@@ -1,4 +1,4 @@
-package com.example.toepapp
+package com.example.toepapp.fragments
 
 import androidx.fragment.app.Fragment
 
